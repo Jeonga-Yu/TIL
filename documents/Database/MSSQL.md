@@ -1,0 +1,5 @@
+# 테이블 칼럼 수정
+ALTER TABLE [TABLENAME] ALTER COLUMN [COLUMNNAME] NVARCHAR(MAX)
+
+# Issue
+- OEPNROWSET에서는 표현식을 사용할 수 없다.
