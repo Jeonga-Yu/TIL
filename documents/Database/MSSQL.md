@@ -1,5 +1,10 @@
 # 테이블 칼럼 수정
 ALTER TABLE [TABLENAME] ALTER COLUMN [COLUMNNAME] NVARCHAR(MAX)
 
+# DBCC SHRINKDATABASE
+지정한 데이터베이스에 있는 데이터 및 로그 파일의 크기를 축소한다.
+
+    DBCC SHRINKDATABASE (TCO_SYSTEMCOMPLETION, 0);
+
 # Issue
 - OEPNROWSET에서는 표현식을 사용할 수 없다.
