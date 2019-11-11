@@ -68,7 +68,8 @@ render: function() {
 
 > 축약 표현식으로 함수선언
 
-``` render() {
+``` 
+render() {
   return <Text>Hi</Text>;
 }
 ```
@@ -94,7 +95,7 @@ var callbackFunc = (val) => {
 }
 ```
 
-# 문자열 조립(템플릿 문자열)
+## 문자열 조립(템플릿 문자열)
 >ES5 호환 자바스크립트에서 문자열 조립
 ```
 var API_KEY = 'abcdefg';
@@ -109,7 +110,7 @@ var API_KEY = 'abcdefg;
 var url = `http://someapi.com/request&key=${API_KEY}`;
 ```
 
-##클래스
+## 클래스
 >ES6 클래스
 ```
 class HelloMessage extends Component {
