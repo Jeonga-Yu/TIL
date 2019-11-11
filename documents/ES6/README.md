@@ -118,11 +118,13 @@ class HelloMessage extends Component {
     . . .
   }
 }
+```
 
 - 생성자에서 초기화
 클래스에는 생성자(constructor) 함수가 있다. state를 초기화하고자 할 때는 getInitalstate 대신에 생성자에서 직접 지정해야 한다.
 
 ## let과 const
+
 함수 안에서만 유효한 변수를 선언할 때 var를 사용해왔다.
 ES6에서는 변수의 유효 범위를 지정하는 let과 const가 추가되었다.
 
