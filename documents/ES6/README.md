@@ -45,6 +45,7 @@ var MyComponent = React.createClass({
 });
 module.exports = MyComponent;
 ```
+
 ES6 모듈 문법에서는 export와 import 명령어를 사용한다.
 
 > ES6 모듈 문법을 이용한 모듈 내보내기와 불러오기
@@ -54,9 +55,11 @@ var Mycomponent = React.createClass({
   . . .
 });
 export default MyComponent;
+```
 
 ## 함수 축약 표현식
 >ES5 호환 자바스크립스 함수선언
+
 ```
 render: function() {
   return <Text>Hi</Text>;
@@ -64,14 +67,15 @@ render: function() {
 ```
 
 > 축약 표현식으로 함수선언
-```
-render() {
+
+``` render() {
   return <Text>Hi</Text>;
 }
 ```
 
 ## 두꺼운 화살표 함수
-ES5 호환 자바스크립트에서는 함수가 실행되는 콘텍스트(context, 예를 들어 this 변수)를 명확히 하기 위해 함수 실행 시 bind 명령을 이용하곤 한다.
+ES5 호환 자바스크립트에서는 함수가 실행되는 콘텍스트(context, 예를 들어 this 변수)를 명확히 하기 위해 
+함수 실행 시 bind 명령을 이용하곤 한다.
 콜백(callback)을 다룰 때 특히 많이 사용한다.
 
 > ES5 호환 자바스크립트에서 수동으로 함수 바인딩하기
