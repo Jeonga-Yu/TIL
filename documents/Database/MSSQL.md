@@ -47,3 +47,6 @@
 ### SET ANSI_WARNINGS {ON | OFF}
 ON으로 설정할 경우 SUM, AVG, MAX, MIN, STDEV, STDEVP, VAR, VARP, COUNT 등의 집계 함수에 NULL 값이 있으면 경고 메시지가 생성된다.
 OFF로 설정한 경우에는 경고가 발생하지 않는다..
+
+### Numeric
+    Numeric(전체길이, 소수점이하길이)
