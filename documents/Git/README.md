@@ -36,6 +36,9 @@ git config —global [user.name](http://user.name) "이름"
 ### git commit -am "메세지"
 add와 commit을 동시에 진행
 
+## git add . && git commit -m "메세지"
+add와 commit을 동시에 진행
+
 ### git log
 commit 내용 확인
 
