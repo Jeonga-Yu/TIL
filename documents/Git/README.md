@@ -24,7 +24,10 @@ tracked파일로 commit 대기
 모든 파일을 tracked 상태로
 
 ### git rm [파일명]
-untracked 으로 되돌리기
+파일을 untracked 으로 되돌리기
+
+### git rm -r [폴더명]
+폴더 삭제
 
 ### git commit
 git commit -m "커밋메세지"
