@@ -3,9 +3,9 @@
 개발자에게는 필수적인 도구이다.
 버전관리로서 commit을 하는 것은 중요한 변경 사항에 대한 스냅샷을 남기는 것으로 이러한 버전 관리는 궁극적으로 더 사려깊고 신중하게 일 하는데 도움을 준다. 커밋은 좋은 시스템을 만들고자 하는 자신과의 약속을 꾸준히 진행하는 것이다. 
 
-## git command name parameter1 parameter2 —option
+### git command name parameter1 parameter2 —option
 
-## GitHub(깃허브)
+### GitHub(깃허브)
 깃허브는 Git기능과 SNS기능을 함께 제공하는 웹 서비스로 GitGub 사가 운영하고 있다.
 
 ---
@@ -42,7 +42,7 @@ git config —global [user.name](http://user.name) "이름"
 ### git commit -am "메세지"
 add와 commit을 동시에 진행
 
-## git add . && git commit -m "메세지"
+### git add . && git commit -m "메세지"
 add와 commit을 동시에 진행
 
 ### git log
@@ -87,7 +87,7 @@ branch 목록 확인
 #### 콘솔에서 git output을 컬러로 출력하기
     git config color.ui true
 
-## git stash
+### git stash
 작업중 다른 브랜치로 변경해야하는데 커밋 하기에는 작업이 덜 끝났을 때 사용한다. 
 
 ### git stash list
