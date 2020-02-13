@@ -16,13 +16,29 @@ IntelliJ IDEA Community 2019.03
  
 
 ## IntelliJ IDEA
-### Git
-```
-커밋 - Mac [Command + K], Window [Ctrl + K]
+## Keyboard shortcut
 
-푸시 - Mac [Command + Shift + K], Window [Ctrl + Shift + K]
+커밋
 
-Action 검색창(Plugins검색) -  Mac [Command + Shift + A] / Window [Ctrl + Shift + A]
+    Mac [Command + K]
+    Window [Ctrl + K]
 
-패키지 가져오기(Import) - Mac [Option + Enter] / Window, Linux [Alt + Enter]
-```
+푸시
+
+    Mac [Command + Shift + K]
+    Window [Ctrl + Shift + K]
+
+Action 검색창(Plugins검색) 
+
+    Mac [Command + Shift + A]
+    Window [Ctrl + Shift + A]
+
+패키지 가져오기(Import)
+
+    Mac [Option + Enter]
+    Window, Linux [Alt + Enter]
+
+File 검색
+
+    Mac [Command + Shift + O]
+    Win/Linux [Ctrl+Shift+N]
