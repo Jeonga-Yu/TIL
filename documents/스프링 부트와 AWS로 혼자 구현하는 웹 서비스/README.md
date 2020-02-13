@@ -16,7 +16,7 @@ IntelliJ IDEA Community 2019.03
  
 
 ## IntelliJ IDEA
-## Keyboard shortcut
+### Keyboard shortcut
 
 커밋
 
