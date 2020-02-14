@@ -3,7 +3,7 @@
 개발자에게는 필수적인 도구이다.
 버전관리로서 commit을 하는 것은 중요한 변경 사항에 대한 스냅샷을 남기는 것으로 이러한 버전 관리는 궁극적으로 더 사려깊고 신중하게 일 하는데 도움을 준다. 커밋은 좋은 시스템을 만들고자 하는 자신과의 약속을 꾸준히 진행하는 것이다. 
 
-### git command name parameter1 parameter2 —option
+    git command name parameter1 parameter2 —option
 
 ### GitHub(깃허브)
 깃허브는 Git기능과 SNS기능을 함께 제공하는 웹 서비스로 GitGub 사가 운영하고 있다.
