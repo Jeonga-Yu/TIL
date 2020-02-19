@@ -1,6 +1,6 @@
 # 스프링 부트와 AWS로 혼자 구현하는 웹 서비스
 
-###### 2020-02-01 ~ 진행중  
+###### 2020-02-01 ~ 2020-02-18
 이동욱님의 책 '스프링 부트와 AWS로 혼자 구현하는 웹 서비스'를 실습하면서 일부 내용을 정리했습니다.  
 [책 예제코드 github](https://github.com/jojoldu/freelec-springboot2-webservice)  
 [나의 실습](https://github.com/devJ3rry/springboot-webservice)
