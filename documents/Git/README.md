@@ -92,3 +92,9 @@ branch 목록 확인
 
 ### git stash list
 stash 리스트 확인
+
+### git stash apply [stash name]
+stash에 저장된 작업을 가져온다
+
+### git stath apply —index
+index 옵션이 있을 경우 Staged 상태까지 복원한다
