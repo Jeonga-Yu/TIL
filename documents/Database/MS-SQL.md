@@ -30,6 +30,7 @@
 
 ### oepnrowset으로 엑셀 읽어오기
 > OEPNROWSET에서는 표현식을 사용할 수 없다.
+
     SELECT * INTO #TEMP_TABLE FROM OPENROWSET (
     'MICROSOFT.ACE.OLEDB.12.0', 'EXCEL 12.0;DATABASE=e:\dir\file.xlsx;hdr=yes;imex=1;','SELECT * FROM [DB$]'
     )
@@ -50,3 +51,12 @@ OFF로 설정한 경우에는 경고가 발생하지 않는다..
 
 ### Numeric
     Numeric(전체길이, 소수점이하길이)
+    
+### TRY_CAST
+캐스트에 성공하면 지정한 데이터 형식으로 캐스팅된 값을 반환합니다. 그렇지 않을 경우 Null을 반환한다.
+
+    SELECT   
+    CASE WHEN TRY_CAST('test' AS float) IS NULL   
+    THEN 'Cast failed'  
+    ELSE 'Cast succeeded'  
+    END AS Result;
