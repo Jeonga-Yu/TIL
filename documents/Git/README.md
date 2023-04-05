@@ -98,3 +98,7 @@ stash에 저장된 작업을 가져온다
 
 ### git stath apply —index
 index 옵션이 있을 경우 Staged 상태까지 복원한다
+
+### git 명령 취소
+### git reset --hard ORIG_HEAD
+git pull 취소하고 되돌리기
