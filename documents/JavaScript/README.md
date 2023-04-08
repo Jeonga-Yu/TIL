@@ -52,3 +52,19 @@ Unity 게임 엔진
 합성 함수의 개념으로 함수 자체를 만들어내는 함수를 팩토리 함수라고 부르기도 하며, 이 때 생성된 함수를 클로저라고 부른다.
 
 JS같은 스크립트 언어에서는 클로저와 같은 방식으로 런타임에 동적으로 코드를 생성할 수 있다.
+
+
+### 브라우저 객체 모델 (BOM: Browser Object Model)
+
+브라우저 창에 관련된 기능을 추상화한 객체의 집합
+JS에서 접근할 수 있는 모든 전역 객체나 값들은 window라는 최상위 브라우저 객체에 연결되어 있다.
+
+- screent
+- history
+- navigator
+- location
+- document
+
+
+### 문서 객체 모델 (DOM: Document Object Model)
+
