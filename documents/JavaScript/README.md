@@ -68,3 +68,5 @@ JS에서 접근할 수 있는 모든 전역 객체나 값들은 window라는 최
 
 ### 문서 객체 모델 (DOM: Document Object Model)
 
+웹 브라우저가 HTML이나 XML같은 구조화 된 문서를 JS로 제어 할 수 있도록 추상화한 객체의 집합
+window.document를 최상위 노드로 하는 트리 구조
